@@ -4,11 +4,10 @@ namespace Catalogservice.Models
     public class Catalog
     {
         [Key]
-        public int Id { get; set; }
-        
-        public string Name { get; set; }
-        
-        public string Description { get; set; }
-    
+        public int catalogId { get; set; }
+        [Required]
+        public string catalogName { get; set; }
+        [Required]
+        public string catalogDescription { get; set; }
     }
 }

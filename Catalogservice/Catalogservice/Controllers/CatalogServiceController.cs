@@ -27,8 +27,8 @@ namespace CatalogService.Controllers
         }
 
         [HttpGet]
-
-        public async Task<IActionResult> getAll()
+        //to get all catalogs
+        public async Task<IActionResult> GetAll()
 
         {
 
@@ -39,7 +39,7 @@ namespace CatalogService.Controllers
         }
 
         [HttpGet("{id}")]
-
+        //to search a catalog
         public async Task<IActionResult> Get(int id)
 
         {
@@ -65,7 +65,7 @@ namespace CatalogService.Controllers
         }
 
         [HttpPost]
-
+        //to create a  catalog
         public async Task<IActionResult> Create([FromBody] Catalog shipping)
 
         {
@@ -79,8 +79,8 @@ namespace CatalogService.Controllers
         }
 
         [HttpPut("{id}")]
-
-        public async Task<IActionResult> update(int id, Catalog shipping)
+        // to update a catalog
+        public async Task<IActionResult> Update(int id, Catalog shipping)
 
         {
 
@@ -98,9 +98,9 @@ namespace CatalogService.Controllers
 
             {
 
-                shipment.Name = shipping.Name;
+                shipment.catalogName = shipping.catalogName;
 
-                shipment.Description = shipping.Description;
+                shipment.catalogDescription = shipping.catalogDescription;
 
                 await _context.SaveChangesAsync();
 
@@ -112,7 +112,7 @@ namespace CatalogService.Controllers
         }
 
         [HttpDelete("{id}")]
-
+        // to delete a catalog
         public async Task<IActionResult> Delete(int id)
 
         {

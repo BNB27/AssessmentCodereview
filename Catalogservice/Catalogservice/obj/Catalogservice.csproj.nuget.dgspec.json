@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Asp.netcore\\Catalogservice\\Catalogservice\\Catalogservice.csproj": {}
+    "D:\\Asp.netcore\\Repos\\AssessmentCodereview\\Catalogservice\\Catalogservice\\Catalogservice.csproj": {}
   },
   "projects": {
-    "D:\\Asp.netcore\\Catalogservice\\Catalogservice\\Catalogservice.csproj": {
+    "D:\\Asp.netcore\\Repos\\AssessmentCodereview\\Catalogservice\\Catalogservice\\Catalogservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Asp.netcore\\Catalogservice\\Catalogservice\\Catalogservice.csproj",
+        "projectUniqueName": "D:\\Asp.netcore\\Repos\\AssessmentCodereview\\Catalogservice\\Catalogservice\\Catalogservice.csproj",
         "projectName": "Catalogservice",
-        "projectPath": "D:\\Asp.netcore\\Catalogservice\\Catalogservice\\Catalogservice.csproj",
+        "projectPath": "D:\\Asp.netcore\\Repos\\AssessmentCodereview\\Catalogservice\\Catalogservice\\Catalogservice.csproj",
         "packagesPath": "C:\\Users\\nithis.boopathiraj\\.nuget\\packages\\",
-        "outputPath": "D:\\Asp.netcore\\Catalogservice\\Catalogservice\\obj\\",
+        "outputPath": "D:\\Asp.netcore\\Repos\\AssessmentCodereview\\Catalogservice\\Catalogservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

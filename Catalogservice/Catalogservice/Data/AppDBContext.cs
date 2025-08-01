@@ -6,18 +6,18 @@ namespace Catalogservice.Data
 
 {
 
-    public class appdbcontext : DbContext
+    public class AppDBContext : DbContext
 
     {
 
-        public appdbcontext(DbContextOptions<appdbcontext> options) : base(options)
+        public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
 
         {
 
         }
 
         public DbSet<Catalog> CatalogServices { get; set; }
-
+        // created to store the catalogs
     }
 
 }
